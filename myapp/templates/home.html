@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Django Website</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a simple Django website with CSS and image.</p>
+
+    <img src="{% static 'images/web.png' %}" alt="Web">
+
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+</body>
+</html>
+
