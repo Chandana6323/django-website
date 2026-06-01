@@ -18,9 +18,6 @@ A simple website built using Django, demonstrating template rendering, static fi
 - CSS
 - SQLite
 
-## Screenshot
-
-(Add your homepage screenshot here)
 
 ## Learning Outcomes
 
